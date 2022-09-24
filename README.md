@@ -1,6 +1,11 @@
 mindmap
 =======
 
+<script type="text/javascript" src="mindmap.js">
+</script>
+
+
+
 Карта ума — для тех, кто изучает Javascript
 
 Описание на http://habrahabr.ru/post/191850/
