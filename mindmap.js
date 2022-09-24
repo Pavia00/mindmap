@@ -435,7 +435,7 @@ function strip_tags( str ){
 	if(!str) return "";
 	answer = str.replace(/<\/?[^>]+>/gi, '');
 	answer = answer.replace(/\n/gi, '');
-	return answer;
+	return str;
 }
 
 var myjsPlumb; //глобальный объект для рисования
