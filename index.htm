@@ -27,14 +27,19 @@
 <script type="text/javascript">
     $(function() {
  
-                $('#p3 a').miniPreview({ prefetch: 'none' });
+                $('#p3 a').miniPreview({ prefetch: 'pageload' });
             });
   </script>	
 	<title>Карта ума своими руками</title>
 </head>
 
 <body onload="jsDoFirst();" onresize="onResize()">
-
+<div>
+ <p id="p3">Finally, check out these links to <a href="https://wikipedia.org/">Wikipedia</a> and <a href="https://codepen.io">Codepen</a>.
+	These previews are only fetched when needed. This saves the most bandwidth, but there will be a delay before the previews can be shown.
+</p>
+	
+</div>
 <div id="mindmap_header">	
 	<i id="zoom_out" class="icon-zoom-out" title="Уменьшить карту"></i>	
 	<i id="zoom_in" class="icon-zoom-in" title="Увеличить карту"></i>	
